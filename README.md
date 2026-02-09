@@ -1,2 +1,150 @@
-# Canyon-Defense
-Tower Defense game, classic, 3 maps, 3 difficulty modes, vibe coded by Spe, implemented by Aura (OpenCode Kimi K2.5 and Big Pickle free versions)
+# Canyon Defense 🔥
+
+**A tower defense game vibe coded by Aura & Spe**
+
+Welcome to Canyon Defense v2.9 "UI Optimization" - the most polished version yet! This ain't just any tower defense game - this shit is Canyon Defense! Inspired by the classic Canyon Defence but made bussin' with custom textures, fire sound effects, and Spe's track "Tiger Swag Killah!" bumping in the background!
+
+## What's New in v2.9 "UI Optimization"
+
+### UI & Performance Enhancements
+- **Streamlined Options Modal**: Smart context-aware menu that adapts based on game state
+- **Removed Duplicates**: Eliminated ~65 lines of redundant HTML code
+- **Cleaner UX**: Session stats and leave game only appear during gameplay
+- **Code Analysis**: Identified and documented bloat patterns for future optimization
+- **Professional Polish**: Thoughtful user experience design throughout
+
+### Combined Features from v2.5 "Tactical Overhaul"
+
+### Tower Upgrade System
+- **Levels 1-3**: Every tower can be upgraded up to 3 levels
+- **Click to Manage**: Click any tower to select it and access upgrade/sell options
+- **Dynamic Stats**:
+  - Level 2: +20% Damage, +15% Range
+  - Level 3: +40% Damage, +30% Range, +20% Fire Rate
+- **Smart Selling**: Get 70% of TOTAL invested (base + upgrades)
+
+### Speed Controls
+- **1x**: Normal speed
+- **2x**: Fast forward
+- **5x**: Hyper mode for veterans
+- Visual feedback shows active speed
+
+### Zone Control Bonus
+- **Aggressive Play Rewards**: Kill enemies before they reach 50% of the map
+- **+25% Bonus Gold**: Extra income for strategic tower placement
+- Visual feedback with floating "+$BONUS" text
+
+### Sharp & Clean UI
+- **Military Terminal Aesthetic**: Sharp corners, neon accents
+- **No Clutter**: Clean, information-dense interface
+- **Better UX**: Hover range display, context menus
+
+## How to Play
+
+1. **Open the game**: Double-click `index.html` or right-click and "Open with" your browser
+2. **Select difficulty**: Easy (30 waves), Normal (40 waves), or Hard (50 waves)
+3. **Select a map**: Red Canyon, Blue Gorge, or Green Valley
+4. **Click "Start Game"**
+5. **Place towers**: Click on the rocky areas (not the path)
+6. **Manage towers**: Click existing towers to upgrade or sell them
+7. **Start waves**: Press SPACEBAR to start each wave
+8. **Earn money**: Kill enemies to earn money for more towers
+9. **Survive**: Don't let enemies reach the end!
+
+## Controls
+
+- **Left Click**: Select/place towers
+- **Click Tower**: Open management menu (upgrade/sell)
+- **Spacebar**: Start next wave
+- **1/2/3 Keys**: Quick speed toggle (1x, 2x, 5x)
+
+## Towers
+
+**Basic Towers** (start unlocked):
+- Missile Tower - Basic ground defense
+- AA Gun - Anti-air defense
+
+**Advanced Towers** (unlock by playing):
+- Cannon - Heavy ground damage
+- Tesla - Chain lightning (hits multiple enemies)
+- Laser - Rapid fire beam
+- Gauss - Ultimate ground weapon
+- Goo Gun - Slows enemies
+- Multi-Shot - Fires 3 projectiles
+
+**Support Buildings**:
+- Recycler - Generates money over time
+- Radar - Buffs nearby towers
+- Nuke Silo - Unlocks nuclear strike ability
+
+## Tower Upgrades
+
+Click any tower to see upgrade options:
+- **Upgrade Cost**: Level 2 = 50% base cost, Level 3 = 100% base cost
+- **Sell Value**: Always 70% of total invested (including previous upgrades)
+- **Visual Feedback**: Level indicators show upgrade status
+
+## Special Abilities
+
+- ☢️ **Nuclear Strike**: Damages all enemies on screen
+- ❄️ **Freeze Time**: Freezes all enemies temporarily
+- 🧱 **Build Wall**: Place temporary walls on the path
+
+## Sound Effects
+
+The game features custom sound effects:
+- High-pitched sounds for missile towers
+- Deep sounds for heavy cannons
+- Electric zaps, laser sounds, explosions, and more!
+
+## Adding Your Own Music
+
+To add background music:
+1. Open `index.html`
+2. Find the `<audio id="gameMusic">` section
+3. Replace the empty `src=""` with your music file path
+
+## Troubleshooting
+
+**Game won't start?**
+- Make sure you're opening the file in a modern browser (Chrome, Firefox, Edge)
+- Check the browser console (F12) for any error messages
+- Try refreshing the page
+
+**No sound?**
+- Click anywhere on the page first (browsers block audio until user interaction)
+- Check your system volume
+
+## Tips
+
+1. Place towers near bends in the path for maximum coverage
+2. Upgrade your best towers instead of building more
+3. Use AA Guns before air waves (every 5th wave)
+4. Build Recyclers early for extra income
+5. Kill enemies early for Zone Control bonuses
+6. Use Radar towers to buff your defenses
+7. Sell and reposition towers as needed
+8. Speed up waves when you're confident
+
+Good luck defending the canyon!
+
+---
+
+## Credits 🎮
+
+**Vibe Coded by:** Aura & Spe
+**Music:** "Tiger Swag Killah!" by SpeTheof 🔥
+**Sound Effects:** Programmatically generated by Aura (Web Audio API magic)
+**Game Design:** Inspired by Miniclip's Canyon Defence (2008)
+
+### Version 2.5 "Tactical Overhaul"
+- Tower upgrade system (Levels 1-3)
+- Speed controls (1x/2x/5x)
+- Zone Control bonus economy
+- Sharp military-terminal UI
+- Improved tower visuals
+- Procedural explosion effects
+
+---
+
+*"I don't always code, but when I do, I make that shit bussin'" - Aura*
